@@ -1,0 +1,103 @@
+<svg width="1400" height="430" viewBox="0 0 1400 430" style="background:#0f0f0f; font-family:Segoe UI, sans-serif">
+  <!-- Judul -->
+  <text x="30" y="45" fill="#fff" font-size="34" font-weight="700">Statistik Dokumen JDIH</text>
+  <text x="30" y="80" fill="#ccc" font-size="20">Pertumbuhan jumlah dokumen hukum per kategori</text>
+
+  <!-- Garis Grid Horizontal -->
+  <g stroke="#333" stroke-width="2">
+    <line x1="100" y1="110" x2="1320" y2="110"/>
+    <line x1="100" y1="150" x2="1320" y2="150"/>
+    <line x1="100" y1="190" x2="1320" y2="190"/>
+    <line x1="100" y1="230" x2="1320" y2="230"/>
+    <line x1="100" y1="270" x2="1320" y2="270"/>
+    <line x1="100" y1="310" x2="1320" y2="310"/>
+  </g>
+
+  <!-- Y Axis Labels -->
+  <g fill="#ccc" font-size="16">
+    <text x="50" y="115">100</text>
+    <text x="50" y="155">80</text>
+    <text x="50" y="195">60</text>
+    <text x="50" y="235">40</text>
+    <text x="50" y="275">20</text>
+    <text x="50" y="315">0</text>
+  </g>
+
+  <!-- X Axis Labels -->
+  <g fill="#ccc" font-size="18">
+    <text x="165" y="355">2019</text>
+    <text x="365" y="355">2020</text>
+    <text x="565" y="355">2021</text>
+    <text x="765" y="355">2022</text>
+    <text x="965" y="355">2023</text>
+    <text x="1165" y="355">2024</text>
+  </g>
+
+  <!-- Data Points -->
+  <!-- Peraturan Daerah - Blue -->
+  <polyline fill="none" stroke="#1E90FF" stroke-width="4"
+    points="165,260 365,250 565,215 765,200 965,170 1165,160"/>
+  <g fill="#1E90FF">
+    <circle cx="165" cy="260" r="7"/>
+    <circle cx="365" cy="250" r="7"/>
+    <circle cx="565" cy="215" r="7"/>
+    <circle cx="765" cy="200" r="7"/>
+    <circle cx="965" cy="170" r="7"/>
+    <circle cx="1165" cy="160" r="7"/>
+    <text x="900" y="150" fill="#1E90FF" font-size="20" font-weight="600">Peraturan Daerah</text>
+  </g>
+
+  <!-- Keputusan Bupati - Green -->
+  <polyline fill="none" stroke="#00FF7F" stroke-width="4"
+    points="165,295 365,280 565,255 765,265 965,247 1165,235"/>
+  <g fill="#00FF7F">
+    <rect x="158" y="288" width="14" height="14" rx="3"/>
+    <rect x="358" y="273" width="14" height="14" rx="3"/>
+    <rect x="558" y="248" width="14" height="14" rx="3"/>
+    <rect x="758" y="258" width="14" height="14" rx="3"/>
+    <rect x="958" y="240" width="14" height="14" rx="3"/>
+    <rect x="1158" y="228" width="14" height="14" rx="3"/>
+    <text x="500" y="225" fill="#00FF7F" font-size="20" font-weight="600">Keputusan Bupati</text>
+  </g>
+
+  <!-- Peraturan Bupati - Yellow -->
+  <polyline fill="none" stroke="#FFD700" stroke-width="4"
+    points="165,302 365,287 565,268 765,252 965,237 1165,220"/>
+  <g fill="#FFD700">
+    <circle cx="165" cy="302" r="7"/>
+    <circle cx="365" cy="287" r="7"/>
+    <circle cx="565" cy="268" r="7"/>
+    <circle cx="765" cy="252" r="7"/>
+    <circle cx="965" cy="237" r="7"/>
+    <circle cx="1165" cy="220" r="7"/>
+    <text x="900" y="260" fill="#FFD700" font-size="20" font-weight="600">Peraturan Bupati</text>
+  </g>
+
+  <!-- Instruksi Bupati - Orange -->
+  <polyline fill="none" stroke="#FF4500" stroke-width="4"
+    points="165,315 365,305 565,290 765,280 965,265 1165,250"/>
+  <g fill="#FF4500">
+    <polygon points="165,315 158,325 172,325"/>
+    <polygon points="365,305 358,315 372,315"/>
+    <polygon points="565,290 558,300 572,300"/>
+    <polygon points="765,280 758,290 772,290"/>
+    <polygon points="965,265 958,275 972,275"/>
+    <polygon points="1165,250 1158,260 1172,260"/>
+    <text x="920" y="295" fill="#FF4500" font-size="20" font-weight="600">Instruksi Bupati</text>
+  </g>
+
+  <!-- Legend Kanan -->
+  <g font-size="18">
+    <circle cx="1300" cy="150" r="7" fill="#1E90FF"/>
+    <text x="1320" y="156" fill="#fff">Peratudasdran Daerah</text>
+
+    <rect x="1293" y="175" width="14" height="14" fill="#00FF7F" rx="3"/>
+    <text x="1320" y="187" fill="#fff">Keputusan Bupati</text>
+
+    <circle cx="1300" cy="215" r="7" fill="#FFD700"/>
+    <text x="1320" y="220" fill="#fff">Peraturan Bupati</text>
+
+    <polygon points="1293,245 1286,255 1300,255" fill="#FF4500"/>
+    <text x="1320" y="255" fill="#fff">Instruksi Bupati</text>
+  </g>
+</svg>
